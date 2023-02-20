@@ -1,4 +1,9 @@
+##ELECCIÓN DE MUESTRA
+set.seed(123)
+sample(1:100, 50, replace=F)
 
+
+##GRÁFICAS REALIZADAS CON GGPLOT2
 library(ggplot2)
 
 ggplot(datos, aes(x=Que, y=f, fill=Que)) + 
